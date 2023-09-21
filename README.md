@@ -19,6 +19,8 @@ In this project I tried to make a clone of [medium.com](https://medium.com/) wit
 
 **Contact me**
 
+<img src="/img/linkedin.png" alt="LinkedIn" width="25px" height="25px"/>
+
  [![Linkedin](/img/linkedin.png) LinkedIn](https://www.linkedin.com/in/sametpolat17/)
 
 
