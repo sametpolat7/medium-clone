@@ -17,9 +17,7 @@ In this project I tried to make a clone of [medium.com](https://medium.com/) wit
 - A navbar that changes color when the page is scrolled
 - one-to-one clone with the original website
 
-**Contact me**
-
-Samet Polat &nbsp; <img src="/img/linkedin.png" alt="LinkedIn" width="25px" height="25px"/>
+**Contact me** : &nbsp; Samet Polat &nbsp; <img src="/img/linkedin.png" alt="LinkedIn" width="25px" height="25px"/>
 
 
 
