@@ -1,0 +1,593 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Bootstrap5 CDN-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <!--Google Fonts / Open Sans-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="/img/favicon.png" type="image/x-icon">
+    <title>Medium – Where good ideas find you.</title>
+</head>
+<body>
+    <div class="bg-yellow sticky-top" id="bg-changed">
+        <div class="container page-top-m">
+            <nav class="navbar navbar-expand-lg" style="height: 75px;">
+                <a class="navbar-brand" href="#">
+                    <img src="/img/logo-removebg-preview.jpg" alt="Logo" style="max-width: 70px;max-height: 40px; border-radius: 10px;">
+                        <span style="font-family: 'DM Serif Display', serif; font-size: 30px; font-weight: 500;letter-spacing: -0.1rem;">
+                            Medium
+                        </span>
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse ms-auto" id="navbarNav">
+                    <ul class="navbar-nav item-margin">
+                        <li class="nav-item">
+                          <a class="nav-link active" aria-current="page" href="#">
+                              <small style="font-family: Arial, Helvetica, sans-serif;">
+                                  Our Story
+                              </small>
+                          </a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" href="#">
+                              <small style="font-family: Arial, Helvetica, sans-serif;">
+                                  Membership
+                              </small>
+                          </a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" href="#">
+                              <small style="font-family: Arial, Helvetica, sans-serif;">
+                                  Write
+                              </small>
+                          </a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" href="#">
+                              <small style="font-family: Arial, Helvetica, sans-serif;">
+                                  Sign in
+                              </small>
+                          </a>
+                        </li>
+                        <li class="nav-item">
+                            <button type="button" class="btn btn-dark" style="border-radius: 30px;">
+                                <small style="font-family: Arial, Helvetica, sans-serif;">
+                                    Get Started
+                                </small>
+                            </button>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+    </div>
+    <div class="bg-yellow">
+        <div class="container" style="margin-left: 10%;">
+            <div class="row">
+                <div class="col-sm-6" style="font-size: 24px; padding-top: 83px;color: black;">
+                    <h4 style="font-family: 'Merriweather', serif; font-size: 106px;letter-spacing: -0.5rem;">
+                        Stay curious.
+                    </h4>
+                    <h4 style="color: #242424;">
+                        Discover stories, thinking, and expertise <br>
+                         from writers on any topic.
+                    </h4>
+                    <br>
+                    <button type="button" class="btn btn-dark" style="border-radius: 30px;background-color: black; padding: 8px 54px 8px">
+                       <small style="font-family: Arial, Helvetica, sans-serif;">
+                           Start Reading
+                       </small>
+                    </button>
+                </div>
+                <div class="col-sm-6 dspn">
+                    <img src="/img/right-img.png" alt="Right Image" style="max-width: 585px;max-height: 462px;float: right;">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="page-mid-m">
+        <div class="container mt-5">
+            <div class="row">
+                <div class="col-sm-12 mb-3">
+                    <svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 576 512"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
+                        <path d="M384 160c-17.7 0-32-14.3-32-32s14.3-32 32-32H544c17.7 0 32 14.3 32 32V288c0 17.7-14.3 32-32 32s-32-14.3-32-32V205.3L342.6 374.6c-12.5 12.5-32.8 12.5-45.3 0L192 269.3 54.6 406.6c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3l160-160c12.5-12.5 32.8-12.5 45.3 0L320 306.7 466.7 160H384z"/>
+                    </svg>
+                    <span class="ms-2">
+                        <small>
+                            <b style="color: #242424; font-weight: 500; font-size: 16px;">
+                                Trending on Medium
+                            </b>
+                        </small>
+                    </span>
+                </div>
+                <div class="col-sm-4">
+                    <div class="row">
+                        <div class="col-sm-1">
+                            <span class="numbers">
+                                01
+                            </span>
+                        </div>
+                        <div class="col-sm-11 ps-4 mt-2">
+                            <img src="https://picsum.photos/id/5/20/20" alt="Profile" style="border-radius: 16px;">
+                            <span>
+                                <small class="name-f">
+                                    <b>
+                                        M.G. Siegler <span class="in">in</span> 500ish
+                                    </b>
+                                </small>
+                            </span>
+                            <h6 style="font-weight: 700; margin-top: 8px;font-size: 16px;">
+                                The Too-Slick Apple Event
+                            </h6>
+                            <p class="sub-text">Sep 14 · 7 min read</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="row">
+                        <div class="col-sm-1">
+                            <span class="numbers">
+                                02
+                            </span>
+                        </div>
+                        <div class="col-sm-11 ps-4 mt-2">
+                            <img src="https://picsum.photos/id/27/20/20" alt="Profile" style="border-radius: 16px;">
+                            <span>
+                                <small class="name-f">
+                                    <b>
+                                        Juntao Qiu <span class="in">in</span> ITNEXT
+                                    </b>
+                                </small>
+                            </span>
+                            <h6 style="font-weight: 700; margin-top: 8px;font-size: 16px;">
+                                Why Web UI Development Is So Hard?
+                            </h6>
+                            <p class="sub-text">Sep 12 · 8 min read</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="row">
+                        <div class="col-sm-1">
+                            <span class="numbers">
+                                03
+                            </span>
+                        </div>
+                        <div class="col-sm-11 ps-4 mt-2">
+                            <img src="https://picsum.photos/id/7/20/20" alt="Profile" style="border-radius: 16px;">
+                            <span>
+                                <small class="name-f">
+                                    <b>
+                                        Will Lockett <span class="in">in</span> Predict
+                                    </b>
+                                </small>
+                            </span>
+                            <h6 style="font-weight: 700; margin-top: 8px;font-size: 16px;">
+                                Tesla Should Be Worried About Toyota
+                            </h6>
+                            <p class="sub-text">Sep 13 · 6 min read
+                                <span class="ms-1" data-bs-toggle="tooltip" title="Member-only story">
+                                    <svg width="14" height="14" viewBox="0 0 20 20" fill="none">
+                                        <path d="M12.4 12.77l-1.81 4.99a.63.63 0 0 1-1.18 0l-1.8-4.99a.63.63 0 0 0-.38-.37l-4.99-1.81a.62.62 0 0 1 0-1.18l4.99-1.8a.63.63 0 0 0 .37-.38l1.81-4.99a.63.63 0 0 1 1.18 0l1.8 4.99a.63.63 0 0 0 .38.37l4.99 1.81a.63.63 0 0 1 0 1.18l-4.99 1.8a.63.63 0 0 0-.37.38z" fill="#FFC017">
+                                        </path>
+                                    </svg>
+                                </span>
+                            </p>
+                        </div>
+                    </div>
+                </div>        <div class="col-sm-4">
+                    <div class="row">
+                        <div class="col-sm-1">
+                            <span class="numbers">
+                                04
+                            </span>
+                        </div>
+                        <div class="col-sm-11 ps-4 mt-2">
+                            <img src="https://picsum.photos/id/23/20/20" alt="Profile" style="border-radius: 16px;">
+                            <span>
+                                <small class="name-f">
+                                    <b>
+                                        Victor Timi <span class="in">in</span> Level Up Coding
+                                    </b>
+                                </small>
+                            </span>
+                            <h6 style="font-weight: 700; margin-top: 8px;font-size: 16px;">
+                                “Good Commit” vs “Your Commit”: How to Write a Perfect Git Commit Message
+                            </h6>
+                            <p class="sub-text">Sep 5 · 8 min read
+                                <span class="ms-1" data-bs-toggle="tooltip" title="Member-only story">
+                                    <svg width="14" height="14" viewBox="0 0 20 20" fill="none">
+                                        <path d="M12.4 12.77l-1.81 4.99a.63.63 0 0 1-1.18 0l-1.8-4.99a.63.63 0 0 0-.38-.37l-4.99-1.81a.62.62 0 0 1 0-1.18l4.99-1.8a.63.63 0 0 0 .37-.38l1.81-4.99a.63.63 0 0 1 1.18 0l1.8 4.99a.63.63 0 0 0 .38.37l4.99 1.81a.63.63 0 0 1 0 1.18l-4.99 1.8a.63.63 0 0 0-.37.38z" fill="#FFC017">
+                                        </path>
+                                    </svg>
+                                </span>
+                            </p>
+                        </div>
+                    </div>
+                </div>        <div class="col-sm-4">
+                    <div class="row">
+                        <div class="col-sm-1">
+                            <span class="numbers">
+                                05
+                            </span>
+                        </div>
+                        <div class="col-sm-11 ps-4 mt-2">
+                            <img src="https://picsum.photos/id/77/20/20" alt="Profile" style="border-radius: 16px;">
+                            <span>
+                                <small class="name-f">
+                                    <b>
+                                        Clark <span class="in">in</span> Mac O’Clock
+                                    </b>
+                                </small>
+                            </span>
+                            <h6 style="font-weight: 700; margin-top: 8px;font-size: 16px;">
+                                Top 10 Must-Have Apple Apps — September 2023
+                            </h6>
+                            <p class="sub-text">Sep 14 · 7 min read
+                                <span class="ms-1" data-bs-toggle="tooltip" title="Member-only story">
+                                    <svg width="14" height="14" viewBox="0 0 20 20" fill="none">
+                                        <path d="M12.4 12.77l-1.81 4.99a.63.63 0 0 1-1.18 0l-1.8-4.99a.63.63 0 0 0-.38-.37l-4.99-1.81a.62.62 0 0 1 0-1.18l4.99-1.8a.63.63 0 0 0 .37-.38l1.81-4.99a.63.63 0 0 1 1.18 0l1.8 4.99a.63.63 0 0 0 .38.37l4.99 1.81a.63.63 0 0 1 0 1.18l-4.99 1.8a.63.63 0 0 0-.37.38z" fill="#FFC017">
+                                        </path>
+                                    </svg>
+                                </span>
+                            </p>
+                        </div>
+                    </div>
+                </div>        
+                <div class="col-sm-4">
+                    <div class="row">
+                        <div class="col-sm-1">
+                            <span class="numbers">
+                                06
+                            </span>
+                        </div>
+                        <div class="col-sm-11 ps-4 mt-2">
+                            <img src="https://picsum.photos/id/217/20/20" alt="Profile" style="border-radius: 16px;">
+                            <span>
+                                <small class="name-f">
+                                    <b>
+                                        Jano le Roux <span class="in">in</span> ILLUMINATION
+                                    </b>
+                                </small>
+                            </span>
+                            <h6 style="font-weight: 700; margin-top: 8px;font-size: 16px;">
+                                Scientists Gave Homeless People $7,500, Here’s How They Spent It
+                            </h6>
+                            <p class="sub-text">Sep 5 · 5 min read
+                                <span class="ms-1" data-bs-toggle="tooltip" title="Member-only story">
+                                    <svg width="14" height="14" viewBox="0 0 20 20" fill="none">
+                                        <path d="M12.4 12.77l-1.81 4.99a.63.63 0 0 1-1.18 0l-1.8-4.99a.63.63 0 0 0-.38-.37l-4.99-1.81a.62.62 0 0 1 0-1.18l4.99-1.8a.63.63 0 0 0 .37-.38l1.81-4.99a.63.63 0 0 1 1.18 0l1.8 4.99a.63.63 0 0 0 .38.37l4.99 1.81a.63.63 0 0 1 0 1.18l-4.99 1.8a.63.63 0 0 0-.37.38z" fill="#FFC017">
+                                        </path>
+                                    </svg>
+                                </span>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <br>
+    <hr>
+    <br>
+    <!--Articles-->
+    <div class="container page-mid-m mt-4">
+        <div class="row">
+            <!--1.Article-->
+            <div class="col-sm-7">
+                <div class="row">
+                    <div class="col-sm-8">
+                        <img src="https://picsum.photos/id/255/20/20" alt="Profile" style="border-radius: 16px;">
+                            <span>
+                                <small class="name-f">
+                                    <b>
+                                        Thomas Smith
+                                    </b>
+                                </small>
+                            </span>
+                            <h5 class="a-head">
+                                The Disturbing Colonial History of Pumpkin Spice
+                            </h5>
+                            <p class="desc">
+                                Genocide, slavery and spices
+                            </p>
+                            <p class="sub-text">
+                                Sep 18 · 6 min read . 
+                                <span class="about">
+                                    Indigenous People
+                                </span>
+                                <span class="ms-1" data-bs-toggle="tooltip" title="Member-only story">
+                                    <svg width="14" height="14" viewBox="0 0 20 20" fill="none">
+                                        <path d="M12.4 12.77l-1.81 4.99a.63.63 0 0 1-1.18 0l-1.8-4.99a.63.63 0 0 0-.38-.37l-4.99-1.81a.62.62 0 0 1 0-1.18l4.99-1.8a.63.63 0 0 0 .37-.38l1.81-4.99a.63.63 0 0 1 1.18 0l1.8 4.99a.63.63 0 0 0 .38.37l4.99 1.81a.63.63 0 0 1 0 1.18l-4.99 1.8a.63.63 0 0 0-.37.38z" fill="#FFC017">
+                                        </path>
+                                    </svg>
+                                </span>
+                                <span data-bs-toggle="tooltip" title="Add bookmark" style="cursor: pointer;">
+                                    <svg class="float-end" xmlns="http://www.w3.org/2000/svg" height="1.25em" viewBox="0 0 384 512">
+                                        <style>svg{fill:#000000}
+                                        </style>
+                                        <path d="M0 48C0 21.5 21.5 0 48 0l0 48V441.4l130.1-92.9c8.3-6 19.6-6 27.9 0L336 441.4V48H48V0H336c26.5 0 48 21.5 48 48V488c0 9-5 17.2-13 21.3s-17.6 3.4-24.9-1.8L192 397.5 37.9 507.5c-7.3 5.2-16.9 5.9-24.9 1.8S0 497 0 488V48z"/>
+                                    </svg>
+                                </span>
+                            </p>
+                    </div>
+                    <div class="col-sm-4">
+                        <img src="https://picsum.photos/id/270/200/134" alt="Article Images">
+                    </div>
+                </div>
+            </div>
+            <!--Right Panel-->
+            <div class="col-sm-4 ms-5 dspn">
+                <h6>Discover more of what matters to you</h6>
+                <button type="button" class="btn btn-rp">Programming</button>
+                <button type="button" class="btn btn-rp">Data Science</button>
+                <button type="button" class="btn btn-rp">Technology</button>
+                <button type="button" class="btn btn-rp">Self Improvement</button>
+                <button type="button" class="btn btn-rp">Writing</button>
+                <button type="button" class="btn btn-rp">Relationships</button>
+                <button type="button" class="btn btn-rp">Machine Learning</button>
+                <button type="button" class="btn btn-rp">Productivity</button>
+                <button type="button" class="btn btn-rp">Politics</button>
+                <p class="mb-4 mt-4">
+                    <a href="#" style="text-decoration: none; color: #1A8917; font-weight: 500;">
+                        <small>
+                            See more topics
+                        </small>
+                    </a>
+                </p>
+                <hr>
+                <div class="mt-4">
+                    <a href="#" class="rp-links">Help</a>
+                    <a href="#" class="rp-links">Status</a>
+                    <a href="#" class="rp-links">Writers</a>
+                    <a href="#" class="rp-links">Blog</a>
+                    <a href="#" class="rp-links">Careers</a>
+                    <a href="#" class="rp-links">Privacy</a>
+                    <a href="#" class="rp-links">Terms</a>
+                    <a href="#" class="rp-links">About</a>
+                    <a href="#" class="rp-links">Text to speech</a>
+                    <a href="#" class="rp-links">Teams</a>
+                </div>
+            </div>
+            <!--2.Article-->
+            <div class="col-sm-7 mb-4" style="margin-top: -7.5rem;">
+                <div class="row">
+                    <div class="col-sm-8">
+                        <img src="https://picsum.photos/id/198/20/20" alt="Profile" style="border-radius: 16px;">
+                            <span>
+                                <small class="name-f">
+                                    <b>
+                                        Tara Haelle <span class="in">in</span> Long COVID Connection
+                                    </b>
+                                </small>
+                            </span>
+                            <h5 class="a-head">
+                                We’re starting to understand more of what causes long COVID brain fog
+                            </h5>
+                            <p class="desc">
+                                Not only did a new study identify two blood proteins linked to cognitive difficulties a year after COVID-19 infection, but the...
+                            </p>
+                            <p class="sub-text">
+                                Sep 13 · 7 min read . 
+                                <span class="about">
+                                    Covid-19
+                                </span>
+                                <span class="ms-1" data-bs-toggle="tooltip" title="Member-only story">
+                                    <svg width="14" height="14" viewBox="0 0 20 20" fill="none">
+                                        <path d="M12.4 12.77l-1.81 4.99a.63.63 0 0 1-1.18 0l-1.8-4.99a.63.63 0 0 0-.38-.37l-4.99-1.81a.62.62 0 0 1 0-1.18l4.99-1.8a.63.63 0 0 0 .37-.38l1.81-4.99a.63.63 0 0 1 1.18 0l1.8 4.99a.63.63 0 0 0 .38.37l4.99 1.81a.63.63 0 0 1 0 1.18l-4.99 1.8a.63.63 0 0 0-.37.38z" fill="#FFC017">
+                                        </path>
+                                    </svg>
+                                </span>
+                                <span data-bs-toggle="tooltip" title="Add bookmark" style="cursor: pointer;">
+                                    <svg class="float-end" xmlns="http://www.w3.org/2000/svg" height="1.25em" viewBox="0 0 384 512">
+                                        <style>svg{fill:#000000}
+                                        </style>
+                                        <path d="M0 48C0 21.5 21.5 0 48 0l0 48V441.4l130.1-92.9c8.3-6 19.6-6 27.9 0L336 441.4V48H48V0H336c26.5 0 48 21.5 48 48V488c0 9-5 17.2-13 21.3s-17.6 3.4-24.9-1.8L192 397.5 37.9 507.5c-7.3 5.2-16.9 5.9-24.9 1.8S0 497 0 488V48z"/>
+                                    </svg>
+                                </span>
+                            </p>
+                    </div>
+                    <div class="col-sm-4">
+                        <img src="https://picsum.photos/id/199/200/134" alt="Article Images">
+                    </div>
+                </div>
+            </div>
+            <!--3.Article-->
+            <div class="col-sm-7 mb-4">
+                <div class="row">
+                    <div class="col-sm-8">
+                        <img src="https://picsum.photos/id/201/20/20" alt="Profile" style="border-radius: 16px;">
+                            <span>
+                                <small class="name-f">
+                                    <b>
+                                        Wil Wheaton
+                                    </b>
+                                </small>
+                            </span>
+                            <h5 class="a-head">
+                                i was nine years-old when i had my first crushe
+                            </h5>
+                            <p class="desc">
+                                Her name was Candice, and she went by Candi. She was my first — and biggest — childhood crush...
+                            </p>
+                            <p class="sub-text">
+                                Sep 16 · 15 min read . 
+                                <span class="about">
+                                    Child Abuse
+                                </span>
+                                <span class="ms-1" data-bs-toggle="tooltip" title="Member-only story">
+                                    <svg width="14" height="14" viewBox="0 0 20 20" fill="none">
+                                        <path d="M12.4 12.77l-1.81 4.99a.63.63 0 0 1-1.18 0l-1.8-4.99a.63.63 0 0 0-.38-.37l-4.99-1.81a.62.62 0 0 1 0-1.18l4.99-1.8a.63.63 0 0 0 .37-.38l1.81-4.99a.63.63 0 0 1 1.18 0l1.8 4.99a.63.63 0 0 0 .38.37l4.99 1.81a.63.63 0 0 1 0 1.18l-4.99 1.8a.63.63 0 0 0-.37.38z" fill="#FFC017">
+                                        </path>
+                                    </svg>
+                                </span>
+                                <span data-bs-toggle="tooltip" title="Add bookmark" style="cursor: pointer;">
+                                    <svg class="float-end" xmlns="http://www.w3.org/2000/svg" height="1.25em" viewBox="0 0 384 512">
+                                        <style>svg{fill:#000000}
+                                        </style>
+                                        <path d="M0 48C0 21.5 21.5 0 48 0l0 48V441.4l130.1-92.9c8.3-6 19.6-6 27.9 0L336 441.4V48H48V0H336c26.5 0 48 21.5 48 48V488c0 9-5 17.2-13 21.3s-17.6 3.4-24.9-1.8L192 397.5 37.9 507.5c-7.3 5.2-16.9 5.9-24.9 1.8S0 497 0 488V48z"/>
+                                    </svg>
+                                </span>
+                            </p>
+                    </div>
+                    <div class="col-sm-4">
+                        <img src="https://picsum.photos/id/202/200/134" alt="Article Images">
+                    </div>
+                </div>
+            </div>
+            <!--4.Article-->
+            <div class="col-sm-7 mb-5">
+                <div class="row">
+                    <div class="col-sm-8">
+                        <img src="https://picsum.photos/id/204/20/20" alt="Profile" style="border-radius: 16px;">
+                            <span>
+                                <small class="name-f">
+                                    <b>
+                                        Anne Bonfert <span class="in">in</span> Full Frame
+                                    </b>
+                                </small>
+                            </span>
+                            <h5 class="a-head">
+                                Mastering the Art of Rain Photography
+                            </h5>
+                            <p class="desc">
+                                A story of pricing, trial retention and purchase UX flows
+                            </p>
+                            <p class="sub-text">
+                                Sep 15 · 10 min read . 
+                                <span class="about">
+                                    UX
+                                </span>
+                                <span class="ms-1" data-bs-toggle="tooltip" title="Member-only story">
+                                    <svg width="14" height="14" viewBox="0 0 20 20" fill="none">
+                                        <path d="M12.4 12.77l-1.81 4.99a.63.63 0 0 1-1.18 0l-1.8-4.99a.63.63 0 0 0-.38-.37l-4.99-1.81a.62.62 0 0 1 0-1.18l4.99-1.8a.63.63 0 0 0 .37-.38l1.81-4.99a.63.63 0 0 1 1.18 0l1.8 4.99a.63.63 0 0 0 .38.37l4.99 1.81a.63.63 0 0 1 0 1.18l-4.99 1.8a.63.63 0 0 0-.37.38z" fill="#FFC017">
+                                        </path>
+                                    </svg>
+                                </span>
+                                <span data-bs-toggle="tooltip" title="Add bookmark" style="cursor: pointer;">
+                                    <svg class="float-end" xmlns="http://www.w3.org/2000/svg" height="1.25em" viewBox="0 0 384 512">
+                                        <style>svg{fill:#000000}
+                                        </style>
+                                        <path d="M0 48C0 21.5 21.5 0 48 0l0 48V441.4l130.1-92.9c8.3-6 19.6-6 27.9 0L336 441.4V48H48V0H336c26.5 0 48 21.5 48 48V488c0 9-5 17.2-13 21.3s-17.6 3.4-24.9-1.8L192 397.5 37.9 507.5c-7.3 5.2-16.9 5.9-24.9 1.8S0 497 0 488V48z"/>
+                                    </svg>
+                                </span>
+                            </p>
+                    </div>
+                    <div class="col-sm-4">
+                        <img src="https://picsum.photos/id/203/200/134" alt="Article Images">
+                    </div>
+                </div>
+            </div>
+            <!--5.Article-->
+            <div class="col-sm-7 mb-5">
+                <div class="row">
+                    <div class="col-sm-8">
+                        <img src="https://picsum.photos/id/206/20/20" alt="Profile" style="border-radius: 16px;">
+                            <span>
+                                <small class="name-f">
+                                    <b>
+                                        Matthew Veras Barros <span class="in">in</span> EduCreate
+                                    </b>
+                                </small>
+                            </span>
+                            <h5 class="a-head">
+                                Language, Dialect, and the Time-Space Continuum
+                            </h5>
+                            <p class="desc">
+                                The Difference Between Language and Dialect
+                            </p>
+                            <p class="sub-text">
+                                Sep 1 · 10 min read . 
+                                <span class="about">
+                                    Language
+                                </span>
+                                <span class="ms-1" data-bs-toggle="tooltip" title="Member-only story">
+                                    <svg width="14" height="14" viewBox="0 0 20 20" fill="none">
+                                        <path d="M12.4 12.77l-1.81 4.99a.63.63 0 0 1-1.18 0l-1.8-4.99a.63.63 0 0 0-.38-.37l-4.99-1.81a.62.62 0 0 1 0-1.18l4.99-1.8a.63.63 0 0 0 .37-.38l1.81-4.99a.63.63 0 0 1 1.18 0l1.8 4.99a.63.63 0 0 0 .38.37l4.99 1.81a.63.63 0 0 1 0 1.18l-4.99 1.8a.63.63 0 0 0-.37.38z" fill="#FFC017">
+                                        </path>
+                                    </svg>
+                                </span>
+                                <span data-bs-toggle="tooltip" title="Add bookmark" style="cursor: pointer;">
+                                    <svg class="float-end" xmlns="http://www.w3.org/2000/svg" height="1.25em" viewBox="0 0 384 512">
+                                        <style>svg{fill:#000000}
+                                        </style>
+                                        <path d="M0 48C0 21.5 21.5 0 48 0l0 48V441.4l130.1-92.9c8.3-6 19.6-6 27.9 0L336 441.4V48H48V0H336c26.5 0 48 21.5 48 48V488c0 9-5 17.2-13 21.3s-17.6 3.4-24.9-1.8L192 397.5 37.9 507.5c-7.3 5.2-16.9 5.9-24.9 1.8S0 497 0 488V48z"/>
+                                    </svg>
+                                </span>
+                            </p>
+                    </div>
+                    <div class="col-sm-4">
+                        <img src="https://picsum.photos/id/278/200/134" alt="Article Images">
+                    </div>
+                </div>
+            </div>
+            <!--6.Article-->
+            <div class="col-sm-7 mb-5">
+                <div class="row">
+                    <div class="col-sm-8">
+                        <img src="https://picsum.photos/id/279/20/20" alt="Profile" style="border-radius: 16px;">
+                            <span>
+                                <small class="name-f">
+                                    <b>
+                                        Heather Lengyel <span class="in">in</span> The Lark
+                                    </b>
+                                </small>
+                            </span>
+                            <h5 class="a-head">
+                                Four Stringed Furniture
+                            </h5>
+                            <p class="desc">
+                                The magic of music
+                            </p>
+                            <p class="sub-text">
+                                Sep 9 · 1 min read . 
+                                <span class="about">
+                                    The Lark
+                                </span>
+                                <span class="ms-1" data-bs-toggle="tooltip" title="Member-only story">
+                                    <svg width="14" height="14" viewBox="0 0 20 20" fill="none">
+                                        <path d="M12.4 12.77l-1.81 4.99a.63.63 0 0 1-1.18 0l-1.8-4.99a.63.63 0 0 0-.38-.37l-4.99-1.81a.62.62 0 0 1 0-1.18l4.99-1.8a.63.63 0 0 0 .37-.38l1.81-4.99a.63.63 0 0 1 1.18 0l1.8 4.99a.63.63 0 0 0 .38.37l4.99 1.81a.63.63 0 0 1 0 1.18l-4.99 1.8a.63.63 0 0 0-.37.38z" fill="#FFC017">
+                                        </path>
+                                    </svg>
+                                </span>
+                                <span data-bs-toggle="tooltip" title="Add bookmark" style="cursor: pointer;">
+                                    <svg class="float-end" xmlns="http://www.w3.org/2000/svg" height="1.25em" viewBox="0 0 384 512">
+                                        <style>svg{fill:#000000}
+                                        </style>
+                                        <path d="M0 48C0 21.5 21.5 0 48 0l0 48V441.4l130.1-92.9c8.3-6 19.6-6 27.9 0L336 441.4V48H48V0H336c26.5 0 48 21.5 48 48V488c0 9-5 17.2-13 21.3s-17.6 3.4-24.9-1.8L192 397.5 37.9 507.5c-7.3 5.2-16.9 5.9-24.9 1.8S0 497 0 488V48z"/>
+                                    </svg>
+                                </span>
+                            </p>
+                    </div>
+                    <div class="col-sm-4">
+                        <img src="https://picsum.photos/id/282/200/134" alt="Article Images">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--js-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous">
+    </script>
+    <script>
+        window.onscroll = function() {myFunction()};
+        
+        function myFunction() {
+          if (document.documentElement.scrollTop > 450) {
+            document.getElementById("bg-changed").style.backgroundColor = "white";
+          } else {
+            document.getElementById("bg-changed").style.backgroundColor = "#FFC017";
+          }
+        }
+        </script>
+</body>
+</html>
