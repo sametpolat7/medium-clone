@@ -18,11 +18,3 @@ In this project I tried to make a clone of [medium.com](https://medium.com/) wit
 - one-to-one clone with the original website
 
 **Contact me** : &nbsp; <a href="https://www.linkedin.com/in/sametpolat17/" target="_blank"><img src="/img/linkedin.png" alt="LinkedIn" width="25px" height="25px"/></a>  &nbsp; Samet Polat
-
-
-
-
-
-
-
-
